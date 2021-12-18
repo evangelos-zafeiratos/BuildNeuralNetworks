@@ -33,5 +33,6 @@ for i = 1: Rows
     Scenarios(i,1) = train_file(i, Columns);
 end;
 
+
 No_Outputs   = ceil(log2(max(Scenarios)));
 No_Scenarios = length(unique(Scenarios));
