@@ -6,11 +6,11 @@ use work.neural_library.all;
 use work.output_LUTS.all;
 
 ENTITY ann IS
-	GENERIC (                                                         -- These generic values stand for:
+	GENERIC (                                                     -- These generic values stand for:
       N_I : INTEGER := N_INPUTS;                                      -- N_I : Number of Inputs
       N_H : INTEGER := N_HIDDEN;                                      -- N_H : Number of Hidden Nodes
       N_O : INTEGER := N_OUTPUTS                                      -- N_O : Number of Output Nodes
-	);                                                                -- and regulate the size of the circuit
+	);                                                            -- and regulate the size of the circuit
 	
 	PORT (
       input           : IN  ann_input_vector ; 
