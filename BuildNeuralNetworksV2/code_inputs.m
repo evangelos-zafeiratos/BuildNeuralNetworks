@@ -4,7 +4,6 @@ function [NewRTS, normalized_unique_list, binary_RTS, compressed_binary_RTS, bit
 % a set of values and produces for every column input a normalized column output
 % in the range [-1,1]. The function also prints a .txt file with the inputs
 % in binary form, that is going to used for Simulation purposes.
-%
 
 
   Rows                    = size(RTS_list,1);
